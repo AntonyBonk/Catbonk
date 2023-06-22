@@ -10,7 +10,6 @@
 
 
 .buttonssocials{
-  
 display: flex;
 justify-content: center;
 margin-top: 2vw;
@@ -18,8 +17,8 @@ margin-top: 2vw;
 
 .btnsocial{
   color: #DAC65C;
-  font-size: 1.2vw;
-  width: 20vw;
+  font-size: 1.6vw;
+  width: 30vw;
 }
 
 body{
@@ -279,9 +278,23 @@ padding-top: 5vw;
     }
     
     .btnsocial{
-      width: 35vw;
-      font-size: 3vw;
+      margin-bottom: 4vw;
+      width: 60vw;
+      font-size: 5vw;
     }
+
+    .chartflex{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 2vw;
+      }
+
+      .buttonschart{
+        margin-bottom: 4vw;
+        width: 60vw;
+        font-size: 3vw;
+      }
 
 
   .homepage{
@@ -414,14 +427,7 @@ h4{
   bottom: 16vw;
 }
 
-.buttonschart{
-  font-size: 4vw;
-  margin: auto;
-  margin-top: 3vw;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+
 
 
 .footerlogos{
