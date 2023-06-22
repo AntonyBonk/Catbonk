@@ -1,228 +1,236 @@
 
 
 @font-face {
-    font-family: Mochiy;
-    src: url(Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
-  }
+  font-family: Mochiy;
+  src: url(Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
+}
 
-  @font-face {
-    font-family: Erica;
-    src: url(Erica_One/EricaOne-Regular.ttf);
-  }
+@font-face {
+  font-family: Erica;
+  src: url(Erica_One/EricaOne-Regular.ttf);
+}
 
-  body{
-    font-family: Mochiy;
-    background-color: black;
-  }
+body{
+  font-family: Mochiy;
+  background-color: black;
+}
 
-  a:link {
-    text-decoration: none;
-  }
+a:link {
+  text-decoration: none;
+}
 
-  h1{
-    font-family: Erica;
-    font-size: 10vw;
-    color: #DAC65C;
-    text-shadow: 4px 4px black;
-  }
+h1{
+  font-family: Erica;
+  font-size: 10vw;
+  color: #DAC65C;
+  text-shadow: 4px 4px black;
+}
 
-  h2{
-    font-family: Erica;
-    font-size: 8vw;
-    color: #DAC65C;
-    text-shadow: 4px 4px rgb(255, 0, 0);
-  }
-
-  
-  .h2community{
-    font-family: Erica;
-    font-size: 4vw;
-    color: #DAC65C;
-    text-shadow: 2px 2px rgb(255, 0, 0);
-  }
+h2{
+  font-family: Erica;
+  font-size: 8vw;
+  color: #DAC65C;
+  text-shadow: 4px 4px rgb(255, 0, 0);
+}
 
 
-  h3{
-    font-size: 1vw;
-    color: #DAC65C;
-    text-shadow: 2px 2px black;
-  }
-
-  h4{
-    font-size: 1vw;
-    color: #DAC65C;
-    text-shadow: 2px 2px black;
-  }
-
-  .number{
-    position: absolute;
-    font-family: Erica;
-    font-size: 5vw;
-    color: #DAC65C;
-    text-shadow: 2px 2px black;
-    left: 11vw;
-  }
-
-  .auditedtext{
-    font-family: Erica;
-    font-size: 2vw;
-    color: #DAC65C;
-    text-shadow: 2px 2px black;
-  }
-
-  .footer{
-    padding: 3vw;
-    padding-bottom: 1vw;
-    background-color: white;
-    color: black;
-    font-size: 1.1vw;
-  }
-
-  .donationadd{
-    min-width: 50vw;
-  }
-
-  .btn-audit{
-    font-size: 1.2vw;
-  }
+.h2community{
+  font-family: Erica;
+  font-size: 4vw;
+  color: #DAC65C;
+  text-shadow: 2px 2px rgb(255, 0, 0);
+}
 
 
-  .address{
-    position: relative;
-    font-size: 1.5vw;
-    z-index: 3;
-  }
+h3{
+  font-size: 1vw;
+  color: #DAC65C;
+  text-shadow: 2px 2px black;
+}
+
+h4{
+  font-size: 1vw;
+  color: #DAC65C;
+  text-shadow: 2px 2px black;
+}
+
+.number{
+  position: absolute;
+  font-family: Erica;
+  font-size: 5vw;
+  color: #DAC65C;
+  text-shadow: 2px 2px black;
+  left: 11vw;
+}
+
+.auditedtext{
+  font-family: Erica;
+  font-size: 2vw;
+  color: #DAC65C;
+  text-shadow: 2px 2px black;
+}
+
+.footer{
+  padding: 3vw;
+  padding-bottom: 1vw;
+  background-color: white;
+  color: black;
+  font-size: 1.1vw;
+}
+
+.donationadd{
+  min-width: 50vw;
+}
+
+.btn-audit{
+  font-size: 1.2vw;
+}
 
 
-  .navbar-toggler-color{
-    background-color: grey;
-    opacity: 0.3;
-  }
+.address{
+  position: relative;
+  font-size: 1.5vw;
+  z-index: 3;
+}
 
-  .homepage{
-    padding: 3rem;
-    background-image: url("backgroundhome.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .about{
-    padding: 10rem;
-    padding-left: 15%;
-    padding-right: 15%;
-    background-image: url("aboutbackgorund.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-size: 1.3vw;
-  }
-
-  .howtobuy{
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 10%;
-    background-image: url("howtobuybackground.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-size: 1vw;
-    text-shadow: 1px 1px black;
-  }
+.test{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
 
 
-  .tokenomics{
-    padding: 15%;
-    padding-top: 5%;
-    background-image: url("tokenomicsbackground.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-size: 1.1vw;
-    text-shadow: 1px 1px black;
-  }
 
-  .documents{
-    padding: 15%;
-    padding-top: 5%;
-    background-color: #04050a;
-    color: white;
-    font-size: 1.1vw;
-  }
+.navbar-toggler-color{
+  background-color: grey;
+  opacity: 0.3;
+}
 
-  .tokenomicsinfo{
-    max-width: 800px;
-    margin-top: 6vw;
-  }
+.homepage{
+  padding: 3rem;
+  background-image: url("backgroundhome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .homepage-content{
-    margin: 100px;
-  }
+.about{
+  padding: 10rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-image: url("aboutbackgorund.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.3vw;
+}
 
-  .buttonschart{
-    background-color: white;
-    color: #DAC65C;
-    font-size: 1.2vw;
-  }
+.howtobuy{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  background-image: url("howtobuybackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1vw;
+  text-shadow: 1px 1px black;
+}
 
-  .catbonkmoon{
-    position: absolute;
-    max-width: 100%;
-    height: auto;
-    width: 42%; 
-    bottom: 0vw;
-    left: 35vw;
-    z-index: -3;
-  }
 
-  .htb{
-    margin-left: 18%;
-    position: relative;
-    z-index: 1;
-  }
+.tokenomics{
+  padding: 15%;
+  padding-top: 5%;
+  background-image: url("tokenomicsbackground.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.1vw;
+  text-shadow: 1px 1px black;
+}
 
-  .joinbuttons{
-    min-width: 24vw;
-  }
+.documents{
+  padding: 15%;
+  padding-top: 5%;
+  background-color: #04050a;
+  color: white;
+  font-size: 1.1vw;
+}
 
-  .catbonkmoonhtb{  
-  position: absolute; 
+.tokenomicsinfo{
+  max-width: 800px;
+  margin-top: 6vw;
+}
+
+.homepage-content{
+  margin: 100px;
+}
+
+.buttonschart{
+  background-color: white;
+  color: #DAC65C;
+  font-size: 1.2vw;
+}
+
+.catbonkmoon{
+  position: absolute;
   max-width: 100%;
   height: auto;
-  width: 18%; 
-  right: 8vw;
+  width: 42%; 
   bottom: 0vw;
-  z-index: -1;
+  left: 35vw;
+  z-index: -3;
+}
+
+.htb{
+  margin-left: 18%;
+  position: relative;
+  z-index: 1;
+}
+
+.joinbuttons{
+  min-width: 24vw;
+}
+
+.catbonkmoonhtb{  
+position: absolute; 
+max-width: 100%;
+height: auto;
+width: 18%; 
+right: 8vw;
+bottom: 0vw;
+z-index: -1;
 }
 
 .telegram{
-  position: absolute; 
-  left: -1vw;
-  bottom: 3vw;
+position: absolute; 
+left: -1vw;
+bottom: 3vw;
 }
-  
-  .aboutlogo{
-    position: relative;
-  }
+
+.aboutlogo{
+  position: relative;
+}
 
 .catbonkmoonabout{
-  height: auto;
-  width: 13%; 
-  position: absolute;
-  bottom: 5vw;
-  left: 16vw;
+height: auto;
+width: 13%; 
+position: absolute;
+bottom: 5vw;
+left: 16vw;
 }
 
 .catbonkmoonfooter{
-  height: auto;
-  width: 20%; 
-  position: absolute;
-  bottom: -2vw;
-  left: 50vw;
-  z-index: -1;
+height: auto;
+width: 20%; 
+position: absolute;
+bottom: -2vw;
+left: 50vw;
+z-index: -1;
 }
 
 .excellence{ 
@@ -234,184 +242,184 @@ margin-left: 25%;
 
 
 .disclaimer{
-  font-size: 0.8rem;
-  --tw-text-opacity: 1;
+font-size: 0.8rem;
+--tw-text-opacity: 1;
 
-  font-family: 'Courier New', Courier, monospace;
-  margin-top: 2rem;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 2rem;
 }
 
 @media (min-width: 1200px) { 
-  .interfitauditmin{
-   display: none;
-  }}
+.interfitauditmin{
+ display: none;
+}}
 
 
-  @media (max-width: 1200px) { 
-  .homepage{
-    padding: 0rem;
-    padding-bottom: 1rem;
+@media (max-width: 1200px) { 
+.homepage{
+  padding: 0rem;
+  padding-bottom: 1rem;
+}
+
+.homepage-content{
+  margin: 50px 0px 0px 0px;
+}
+
+.address{
+  font-size: 2.8vw;
+}
+
+.howtobuy{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-size: 3vw;
+}
+
+.tokenomics{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-size: 3vw;
+}
+
+.interfitaudit{
+  display: none;
+}
+
+.buttonsdocuments{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.excellence{ 
+  max-width: 100%;
+  width: 80%; 
+  margin-left: 0;
   }
 
-  .homepage-content{
-    margin: 50px 0px 0px 0px;
-  }
-
-  .address{
-    font-size: 2.8vw;
-  }
-
-  .howtobuy{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    font-size: 3vw;
-  }
-
-  .tokenomics{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    font-size: 3vw;
-  }
-
-  .interfitaudit{
-    display: none;
-  }
-
-  .buttonsdocuments{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .excellence{ 
-    max-width: 100%;
-    width: 80%; 
-    margin-left: 0;
+  .excellenceflex{ 
+  display: flex;
+  justify-content: center;
     }
 
-    .excellenceflex{ 
-    display: flex;
-    justify-content: center;
-      }
+.htb{
+  margin-left: 6%;
+  margin-right: 10%;
+}
 
-  .htb{
-    margin-left: 6%;
-    margin-right: 10%;
-  }
-
-  .auditedtext{
-    display: none;
-  }
-
-
-  .btn-audit{
-    min-width: 70vw;
-    margin-left: 2vw;
-    font-size: 4vw;
-  }
-  
-  .number{
-    font-size: 10vw;
-    left: 4vw;
-    padding-top: 6vw;
-  }
-
-
-  .catbonkmoon{
-    position: absolute;
-    max-width: 100%;
-    height: auto;
-    width: 42%; 
-    bottom: 0vw;
-    left: 55vw;
-    z-index: -3;
-  }
-
-  .catbonkmoonfooter{
+.auditedtext{
   display: none;
-  }
-
-  .catbonkmoonabout{
-    height: auto;
-    width: 30%; 
-    position: absolute;
-    bottom: 5vw;
-    left: 30vw;
-  }
-
-  .catbonkmoonhtb{  
-    width: 30%; 
-    right: -5vw;
-    bottom: 6vw;
-  }
-
-  
-  h1{
-    font-size: 18vw;
-  }
+}
 
 
-  h2{
-    font-size: 12vw;
-    text-align: center;
-  }
+.btn-audit{
+  min-width: 70vw;
+  margin-left: 2vw;
+  font-size: 4vw;
+}
 
-  .h2community{
-    font-family: Erica;
-    font-size: 8vw;
-    color: #DAC65C;
-  }
+.number{
+  font-size: 10vw;
+  left: 4vw;
+  padding-top: 6vw;
+}
 
-  h3{
-    font-size: 4vw;
-  }
 
-  h4{
-    font-size: 4vw;
-  }
+.catbonkmoon{
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  width: 42%; 
+  bottom: 0vw;
+  left: 55vw;
+  z-index: -3;
+}
 
-  .telegram{
-    position: absolute; 
-    left: -1vw;
-    bottom: 16vw;
-  }
+.catbonkmoonfooter{
+display: none;
+}
 
-  .buttonschart{
-    font-size: 4vw;
-    margin: auto;
-    margin-top: 3vw;
-    display: flex;
-    flex-direction: column;
-    min-width: 250px;
-  }
+.catbonkmoonabout{
+  height: auto;
+  width: 30%; 
+  position: absolute;
+  bottom: 5vw;
+  left: 30vw;
+}
 
-  .footerlogos{
-    display: flex;
-    flex-direction: column;
-  }
+.catbonkmoonhtb{  
+  width: 30%; 
+  right: -5vw;
+  bottom: 6vw;
+}
 
-  .about{
-    font-size: 3vw;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
-  }
 
-  .footer{
-    padding-top: 20vw;
-    padding-bottom: 10vw;
-    font-size: 3vw;
-  }
+h1{
+  font-size: 18vw;
+}
 
-  }
- @media (min-width: 1200px) and (max-width: 1400px) { 
-  .navbar-icons {
-    display: none; 
- }
- .navbarwidescreen {
-  padding-left: 5% ;
+
+h2{
+  font-size: 12vw;
+  text-align: center;
+}
+
+.h2community{
+  font-family: Erica;
+  font-size: 8vw;
+  color: #DAC65C;
+}
+
+h3{
+  font-size: 4vw;
+}
+
+h4{
+  font-size: 4vw;
+}
+
+.telegram{
+  position: absolute; 
+  left: -1vw;
+  bottom: 16vw;
+}
+
+.buttonschart{
+  font-size: 4vw;
+  margin: auto;
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.footerlogos{
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  font-size: 3vw;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.footer{
+  padding-top: 20vw;
+  padding-bottom: 10vw;
+  font-size: 3vw;
 }
 
 }
+@media (min-width: 1200px) and (max-width: 1400px) { 
+.navbar-icons {
+  display: none; 
+}
+.navbarwidescreen {
+padding-left: 5% ;
+}
 
+}
